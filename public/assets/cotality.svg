@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">Cotality logo</title>
+  <desc id="desc">Cotality wordmark with polygon globe mark.</desc>
+  <defs>
+    <pattern id="triangles" width="34" height="34" patternUnits="userSpaceOnUse" patternTransform="rotate(22)">
+      <path d="M0 0h22L0 22Z" fill="#261806"/>
+    </pattern>
+  </defs>
+  <circle cx="130" cy="110" r="92" fill="url(#triangles)"/>
+  <circle cx="130" cy="110" r="50" fill="#fff"/>
+  <text x="255" y="141" fill="#261806" font-family="Inter, Arial, sans-serif" font-size="132" font-weight="800">cotality</text>
+  <text x="706" y="89" fill="#261806" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">TM</text>
+</svg>

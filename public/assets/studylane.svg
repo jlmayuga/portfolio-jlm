@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-labelledby="title desc">
+  <title id="title">Studylane logo</title>
+  <desc id="desc">Blue circular Studylane education logo.</desc>
+  <defs>
+    <radialGradient id="blue" cx="50%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#6ec4ed"/>
+      <stop offset="1" stop-color="#1897cf"/>
+    </radialGradient>
+  </defs>
+  <circle cx="180" cy="126" r="118" fill="url(#blue)"/>
+  <circle cx="180" cy="126" r="94" fill="none" stroke="#77c6eb" stroke-width="12" opacity=".45"/>
+  <circle cx="180" cy="126" r="65" fill="none" stroke="#77c6eb" stroke-width="12" opacity=".35"/>
+  <circle cx="180" cy="74" r="28" fill="#fff"/>
+  <path fill="#fff" d="M62 116c86 30 181 30 236-5-49 57-169 73-236 5Z"/>
+  <path fill="#fff" d="M118 227c36-54 96-75 174-51-66 2-121 21-174 51Z"/>
+  <text x="180" y="295" text-anchor="middle" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="45" font-weight="800">studylane</text>
+  <text x="180" y="328" text-anchor="middle" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">your education, our priority</text>
+</svg>
