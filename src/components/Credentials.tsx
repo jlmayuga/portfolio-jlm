@@ -30,7 +30,7 @@ export default function Credentials() {
             <img src="/assets/asset-1.svg" alt="ICAgile Logo" className="icagile-logo" />
           </div>
           <div className="credential-info">
-            <span>June 2024</span>
+            <span>February 2026</span>
             <h3>ICAgile Certified Professional (ICP)</h3>
             <p>ICAgile | Agile Fundamentals, Team Collaboration, Value-Driven Delivery</p>
             <a
