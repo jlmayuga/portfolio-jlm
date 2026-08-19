@@ -777,6 +777,18 @@ h3 {
   width: 58px;
 }
 
+.service-icon svg {
+  height: 25px;
+  width: 25px;
+}
+
+.service-icon svg[fill="none"] {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
 .service-card.highlighted .service-icon {
   background: var(--teal);
   color: #020617;
