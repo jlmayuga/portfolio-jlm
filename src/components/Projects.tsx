@@ -124,7 +124,7 @@ export default function Projects() {
             </p>
             <a
               className="project-link"
-              href="http://ssproduction.vip/"
+              href="https://ssproduction.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
