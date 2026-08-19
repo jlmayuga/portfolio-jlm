@@ -4,7 +4,7 @@ export default function Projects() {
       <div className="section-heading">
         <p className="eyebrow">Selected Projects</p>
         <h2>
-          Product experience across education, healthcare, enterprise HR, creative services, and data-heavy web platforms.
+          Product experience across SaaS, education, healthcare, enterprise HR, creative services, and data-heavy web platforms.
         </h2>
       </div>
       <div className="project-grid">
@@ -42,10 +42,10 @@ export default function Projects() {
             />
           </div>
           <div className="project-body">
-            <span>Student Services</span>
+            <span>Education Recruitment SaaS</span>
             <h3>StudyLane Nepal</h3>
             <p>
-              Education-focused web application designed around student empowerment, service discovery, and clear user journeys.
+              Agent-focused SaaS platform for enrolling students, managing applications, tracking progress, and monitoring commissions through role-based accounts.
             </p>
             <a
               className="project-link"

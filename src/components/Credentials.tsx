@@ -3,7 +3,6 @@ export default function Credentials() {
     <section className="section credentials">
       <div className="credential-copy">
         <p className="eyebrow">Education &amp; Certifications</p>
-        <h2>Formal education, agile certification, and ongoing software development training.</h2>
       </div>
       <div className="credential-list">
         <article className="credential-card has-logo">

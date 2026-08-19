@@ -1242,11 +1242,20 @@ h3 {
 
 .credentials {
   align-items: start;
+  display: block;
+}
+
+.credential-copy {
+  margin-bottom: clamp(32px, 5vw, 56px);
+  text-align: center;
 }
 
 .credential-list {
   display: grid;
   gap: 14px;
+  margin: 0 auto;
+  max-width: 880px;
+  width: 100%;
 }
 
 .credential-list article {
