@@ -30,6 +30,15 @@ export default function Hero() {
             <a className="btn btn-primary" href="#projects">
               View Work
             </a>
+            <a
+              className="btn btn-cv"
+              href="/assets/John_Lester_Mayuga_CV.pdf"
+              download="John_Lester_Mayuga_CV.pdf"
+              aria-label="Download John Lester Mayuga's CV as a PDF"
+            >
+              <span aria-hidden="true">↓</span>
+              Download CV
+            </a>
             <a className="btn btn-ghost" href="#contact">
               Contact Me
             </a>
@@ -53,7 +62,7 @@ export default function Hero() {
         </div>
 
         <div className="delivery-panel" aria-label="Professional delivery highlights">
-          <div className="profile-card">
+          <div className="profile-portrait-card">
             <div className="profile-photo" aria-label="John Lester Mayuga profile image">
               <button
                 type="button"
@@ -64,16 +73,14 @@ export default function Hero() {
                 <Image
                   src="/assets/jl.png"
                   alt="John Lester Mayuga"
-                  width={78}
-                  height={78}
+                  width={240}
+                  height={240}
                   className="profile-photo-img"
                 />
               </button>
             </div>
-            <div>
-              <strong>John Lester Mayuga</strong>
+            <strong>John Lester Mayuga</strong>
               <span>Full Stack Developer</span>
-            </div>
           </div>
           <div className="panel-topbar">
             <span></span>

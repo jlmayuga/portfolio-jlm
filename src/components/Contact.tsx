@@ -32,6 +32,20 @@ export default function Contact() {
             </a>
           </div>
         </article>
+        <article className="contact-card">
+          <div className="service-icon">GH</div>
+          <div>
+            <h3>Explore My GitHub</h3>
+            <p>Browse my repositories, projects, and development work.</p>
+            <a
+              href="https://github.com/jlmayuga"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/jlmayuga
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   );
