@@ -1,14 +1,8 @@
-"use client";
-
 import Image from "next/image";
-import { useState } from "react";
 
 export default function Hero() {
-  const [isImageOpen, setIsImageOpen] = useState(false);
-
   return (
-    <>
-      <section className="hero section-band">
+    <section className="hero section-band">
       <div className="hero-bg" aria-hidden="true">
         <div className="grid-field"></div>
         <div className="signal-line signal-line-a"></div>
@@ -64,20 +58,13 @@ export default function Hero() {
         <div className="delivery-panel" aria-label="Professional delivery highlights">
           <div className="profile-portrait-card">
             <div className="profile-photo" aria-label="John Lester Mayuga profile image">
-              <button
-                type="button"
-                className="profile-photo-button"
-                onClick={() => setIsImageOpen(true)}
-                aria-label="View larger profile image"
-              >
-                <Image
-                  src="/assets/jl-no-bg.png"
-                  alt="John Lester Mayuga"
-                  width={240}
-                  height={240}
-                  className="profile-photo-img"
-                />
-              </button>
+              <Image
+                src="/assets/jl-no-bg.png"
+                alt="John Lester Mayuga"
+                width={240}
+                height={240}
+                className="profile-photo-img"
+              />
             </div>
             <strong>John Lester Mayuga</strong>
               <span>Full Stack Developer</span>
@@ -130,17 +117,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-      {isImageOpen ? (
-        <div className="image-modal" role="dialog" aria-modal="true" aria-label="Profile image preview">
-          <div className="image-modal-backdrop" onClick={() => setIsImageOpen(false)} />
-          <div className="image-modal-panel">
-            <button className="image-modal-close" type="button" onClick={() => setIsImageOpen(false)} aria-label="Close image preview">
-              ×
-            </button>
-            <img src="/assets/jl-no-bg.png" alt="John Lester Mayuga" />
-          </div>
-        </div>
-      ) : null}
-    </>
   );
 }
