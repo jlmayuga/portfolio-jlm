@@ -140,6 +140,10 @@ a {
   transform: scaleX(1);
 }
 
+.menu-toggle {
+  display: none;
+}
+
 .header-cta {
   background: var(--teal);
   border: 1px solid var(--teal);
@@ -1886,6 +1890,66 @@ footer {
     display: none;
   }
 
+  .menu-toggle {
+    align-items: center;
+    background: transparent;
+    border: 1px solid rgba(229, 75, 75, 0.35);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 40px;
+    justify-content: center;
+    margin-left: auto;
+    padding: 0 10px;
+    width: 42px;
+  }
+
+  .menu-toggle span {
+    background: #161c2d;
+    border-radius: 999px;
+    display: block;
+    height: 2px;
+    transition: transform 180ms ease, opacity 180ms ease;
+    width: 20px;
+  }
+
+  .menu-toggle[aria-expanded="true"] span:first-child {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .menu-toggle[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle[aria-expanded="true"] span:last-child {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .nav-links[data-open="true"] {
+    align-items: stretch;
+    background: #fff;
+    border-top: 1px solid #edf0f2;
+    box-shadow: 0 12px 24px rgba(22, 28, 45, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    left: 0;
+    padding: 10px clamp(18px, 7vw, 110px) 16px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+  }
+
+  .nav-links[data-open="true"] a {
+    padding: 12px 0;
+  }
+
+  .nav-links[data-open="true"] a::after {
+    bottom: 5px;
+  }
+
   .hero-inner,
   .content-grid,
   .credentials,
@@ -1944,11 +2008,11 @@ footer {
   }
 
   .brand span:last-child {
-    display: none;
+    display: inline;
   }
 
   .header-cta {
-    padding-inline: 13px;
+    display: none;
   }
 
   .hero {
@@ -2082,6 +2146,16 @@ footer {
     width: 100%;
   }
 
+  .delivery-panel {
+    align-items: flex-end;
+    padding: 0;
+  }
+
+  .profile-portrait-card {
+    justify-content: flex-end;
+    padding: 0;
+  }
+
   h1 {
     font-size: clamp(2.5rem, 12vw, 4rem);
   }
@@ -2091,6 +2165,11 @@ footer {
     height: auto;
     max-width: min(100%, 390px);
     width: 100%;
+  }
+
+  .profile-photo-button,
+  .profile-photo-img {
+    vertical-align: bottom;
   }
 
   .hero-actions {
