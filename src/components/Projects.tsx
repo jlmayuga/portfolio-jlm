@@ -11,9 +11,9 @@ export default function Projects() {
         <article className="project-card">
           <div className="project-visual study-partners has-logo">
             <img
-              className="project-logo wide-logo"
-              src="/assets/gsp.png"
-              alt="Global Study Partners logo"
+              className="project-screenshot"
+              src="/assets/project-global-study-partners.png"
+              alt="Global Study Partners landing page"
             />
           </div>
           <div className="project-body">
@@ -36,9 +36,9 @@ export default function Projects() {
         <article className="project-card">
           <div className="project-visual studylane has-logo">
             <img
-              className="project-logo square-logo"
-              src="/assets/studylane.svg"
-              alt="Studylane logo"
+              className="project-screenshot"
+              src="/assets/project-studylane.png"
+              alt="StudyLane Nepal landing page"
             />
           </div>
           <div className="project-body">
@@ -61,9 +61,9 @@ export default function Projects() {
         <article className="project-card">
           <div className="project-visual property-hub has-logo">
             <img
-              className="project-logo wide-logo"
-              src="/assets/cotality.svg"
-              alt="Cotality logo"
+              className="project-screenshot"
+              src="/assets/project-propertyhub.png"
+              alt="Cotality PropertyHub landing page"
             />
           </div>
           <div className="project-body">
@@ -111,9 +111,9 @@ export default function Projects() {
         <article className="project-card">
           <div className="project-visual ssproduction has-logo dark-logo">
             <img
-              className="project-logo wide-logo ssproduction-logo"
-              src="/assets/ssp.png"
-              alt="Shutter Speed Production logo"
+              className="project-screenshot"
+              src="/assets/project-ssproduction.png"
+              alt="Shutter Speed Production landing page"
             />
           </div>
           <div className="project-body">
@@ -159,9 +159,9 @@ export default function Projects() {
         <article className="project-card">
           <div className="project-visual twist-hr has-logo">
             <img
-              className="project-logo wide-logo"
-              src="/assets/twisthr.png"
-              alt="HR TwistResources logo"
+              className="project-screenshot"
+              src="/assets/project-hr.png"
+              alt="TwistResources HR landing page"
             />
           </div>
           <div className="project-body">
@@ -182,9 +182,9 @@ export default function Projects() {
         <article className="project-card">
           <div className="project-visual tooltwist has-logo">
             <img
-              className="project-logo square-logo"
-              src="/assets/tooltwist.png"
-              alt="Tooltwist logo"
+              className="project-screenshot"
+              src="/assets/project-tooltwist.png"
+              alt="ToolTwist landing page"
             />
           </div>
           <div className="project-body">
@@ -232,9 +232,9 @@ export default function Projects() {
         <article className="project-card">
           <div className="project-visual twist-hr has-logo">
             <img
-              className="project-logo square-logo"
-              src="/assets/twisthr.png"
-              alt="TwistResources logo"
+              className="project-screenshot"
+              src="/assets/project-twistresources.png"
+              alt="TwistResources landing page"
             />
           </div>
           <div className="project-body">
@@ -257,9 +257,9 @@ export default function Projects() {
         <article className="project-card">
           <div className="project-visual ttcm has-logo">
             <img
-              className="project-logo wide-logo"
-              src="/assets/ttcm.png"
-              alt="TTCM logo"
+              className="project-screenshot"
+              src="/assets/project-ttcm.png"
+              alt="TTCM landing page"
             />
           </div>
           <div className="project-body">
@@ -280,9 +280,9 @@ export default function Projects() {
         <article className="project-card">
           <div className="project-visual ttpr has-logo">
             <img
-              className="project-logo wide-logo"
-              src="/assets/ttpr.png"
-              alt="TTPR logo"
+              className="project-screenshot"
+              src="/assets/project-ttpr.png"
+              alt="TTPR landing page"
             />
           </div>
           <div className="project-body">

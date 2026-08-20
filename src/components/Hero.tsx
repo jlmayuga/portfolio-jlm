@@ -19,7 +19,7 @@ export default function Hero() {
         <div className="hero-copy">
           <p className="availability-pill">Senior Agile Software Engineer</p>
           <h1>
-            Full Stack Developer <span>building enterprise web applications</span>.
+            I&apos;m John Lester Mayuga, <span>Full Stack Developer</span>.
           </h1>
           <p className="hero-text">
             Full Stack Developer with 11+ years of enterprise software engineering experience.
@@ -71,7 +71,7 @@ export default function Hero() {
                 aria-label="View larger profile image"
               >
                 <Image
-                  src="/assets/jl.png"
+                  src="/assets/jl-no-bg.png"
                   alt="John Lester Mayuga"
                   width={240}
                   height={240}
@@ -137,7 +137,7 @@ export default function Hero() {
             <button className="image-modal-close" type="button" onClick={() => setIsImageOpen(false)} aria-label="Close image preview">
               ×
             </button>
-            <img src="/assets/jl.png" alt="John Lester Mayuga" />
+            <img src="/assets/jl-no-bg.png" alt="John Lester Mayuga" />
           </div>
         </div>
       ) : null}
