@@ -44,10 +44,10 @@ export default function LogoDesigns() {
 
       <article className="r3-brand-system">
         <div className="r3-copy">
-          <p className="eyebrow">One mark, multiple ideas</p>
-          <h3>R3 Identity System</h3>
+          <p className="eyebrow">One brand, every essential</p>
+          <h3>R3 One-Stop Shop Identity</h3>
           <p>
-            A consolidated wordmark study that uses the R3 monogram across Express, Refill, Refresh, and Freeze variations.
+            A unified trademark created for a one-stop shop business, using the R3 monogram to bring its Express, Refill, Refresh, and Freeze service lines under one recognizable brand.
           </p>
         </div>
         <div className="r3-variants">
