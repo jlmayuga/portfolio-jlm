@@ -7,6 +7,7 @@ import Skills from "@/components/Skills";
 import Tools from "@/components/Tools";
 import AIAgents from "@/components/AIAgents";
 import Projects from "@/components/Projects";
+import LogoDesigns from "@/components/LogoDesigns";
 import Credentials from "@/components/Credentials";
 import Contact from "@/components/Contact";
 import FunFact from "@/components/FunFact";
@@ -25,6 +26,7 @@ export default function Home() {
         <Tools />
         <AIAgents />
         <Projects />
+        <LogoDesigns />
         <Credentials />
         <Contact />
       </main>

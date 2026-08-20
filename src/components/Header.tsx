@@ -29,6 +29,7 @@ export default function Header() {
         <a href="#work" onClick={() => setMenuOpen(false)}>Experience</a>
         <a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a>
         <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
+        <a href="#logo-designs" onClick={() => setMenuOpen(false)}>Logos</a>
         <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
       </nav>
       <button
