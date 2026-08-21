@@ -115,6 +115,39 @@
   line-height: 1.7;
 }
 
+.r3-facebook-link {
+  align-items: center;
+  background: #e54b4b;
+  border: 1px solid #e54b4b;
+  border-radius: 5px;
+  box-shadow: 0 3px 8px rgba(229, 75, 75, 0.28);
+  color: #fff;
+  display: inline-flex;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  gap: 9px;
+  margin-top: 8px;
+  padding: 11px 15px;
+  transition: background 180ms ease, transform 180ms ease;
+}
+
+.r3-facebook-link span {
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 50%;
+  display: inline-flex;
+  font-family: Arial, sans-serif;
+  height: 21px;
+  justify-content: center;
+  width: 21px;
+}
+
+.r3-facebook-link:hover {
+  background: #dd2020;
+  transform: translateY(-2px);
+}
+
 .r3-variants {
   display: grid;
   gap: 10px;

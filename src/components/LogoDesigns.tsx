@@ -49,6 +49,16 @@ export default function LogoDesigns() {
           <p>
             A unified trademark created for a one-stop shop business, using the R3 monogram to bring its Express, Refill, Refresh, and Freeze service lines under one recognizable brand.
           </p>
+          <a
+            className="r3-facebook-link"
+            href="https://www.facebook.com/profile.php?id=61586384550862"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit the R3 Facebook page"
+          >
+            <span aria-hidden="true">f</span>
+            Visit R3 on Facebook
+          </a>
         </div>
         <div className="r3-variants">
           {r3Variants.map((variant) => (
