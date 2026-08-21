@@ -2387,3 +2387,54 @@ footer {
     width: auto;
   }
 }
+
+@media (max-width: 720px) {
+  .delivery-panel {
+    align-items: center;
+    justify-content: center;
+    padding-top: 28px;
+  }
+
+  .profile-portrait-card {
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .profile-photo {
+    aspect-ratio: 1;
+    background: rgba(229, 75, 75, 0.08);
+    border: 5px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 12px 30px rgba(22, 28, 45, 0.14);
+    height: clamp(190px, 55vw, 240px);
+    max-width: none;
+    overflow: hidden;
+    width: clamp(190px, 55vw, 240px);
+  }
+
+  .profile-photo-img {
+    object-fit: cover;
+    object-position: center 0%;
+    transform-origin: center center;
+  }
+
+  .profile-portrait-card strong,
+  .profile-portrait-card > span {
+    display: block;
+    text-align: center;
+  }
+
+  .profile-portrait-card strong {
+    color: var(--ink);
+    font-family: Montserrat, sans-serif;
+    font-size: 1.05rem;
+    margin-top: 8px;
+  }
+
+  .profile-portrait-card > span {
+    color: var(--muted);
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+}
