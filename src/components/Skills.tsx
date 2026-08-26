@@ -19,7 +19,7 @@ export default function Skills() {
             <i className="devicon-nodejs-plain-wordmark colored"></i>
             <h3>Backend &amp; DB</h3>
           </div>
-          <p>Node.js, Express.js, REST API development, PostgreSQL, MySQL</p>
+          <p>Java, Node.js, Express.js, REST API development, PostgreSQL, MySQL</p>
         </article>
         <article>
           <div className="skill-icon-header">

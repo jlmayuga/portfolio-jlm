@@ -39,6 +39,10 @@ export default function Tools() {
           <span>Node.js</span>
         </article>
         <article>
+          <i className="devicon-java-plain colored"></i>
+          <span>Java</span>
+        </article>
+        <article>
           <i className="devicon-docker-plain-wordmark colored"></i>
           <span>Docker</span>
         </article>
