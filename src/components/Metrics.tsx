@@ -7,16 +7,12 @@ export default function Metrics() {
           <span>Years Experience</span>
         </article>
         <article>
-          <strong>10</strong>
+          <strong>12</strong>
           <span>Featured Platforms</span>
         </article>
         <article>
-          <strong>9+</strong>
-          <span>Years at Web App</span>
-        </article>
-        <article>
-          <strong>90%</strong>
-          <span>Full-stack Delivery Focus</span>
+          <strong>11+</strong>
+          <span>Years at Twist Resources</span>
         </article>
       </div>
     </section>

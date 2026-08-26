@@ -19,7 +19,7 @@ export default function Home() {
       <Header />
       <main id="home">
         <Hero />
-        <Metrics />
+        {/* <Metrics /> */}
         <Services />
         <Experience />
         <Skills />

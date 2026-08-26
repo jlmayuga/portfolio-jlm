@@ -17,7 +17,7 @@ export default function Hero() {
           </h1>
           <p className="hero-text">
             Full Stack Developer with 11+ years of enterprise software engineering experience.
-            I deliver scalable React, Next.js, Node.js, Express.js, and API-first applications with reusable
+            I deliver scalable React, Next.js, Node.js, Express.js, Java and API-first applications with reusable
             component libraries, modernized legacy systems, and strong Agile delivery practices.
           </p>
           <div className="hero-actions">

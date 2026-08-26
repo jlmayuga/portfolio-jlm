@@ -880,7 +880,7 @@ h3 {
 .metric-grid {
   display: grid;
   gap: 22px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
   max-width: 1400px;
 }
