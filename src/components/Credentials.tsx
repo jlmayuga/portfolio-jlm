@@ -15,7 +15,7 @@ export default function Credentials() {
             <p>AMA Computer College | Pampanga Campus</p>
             <a
               className="credential-link"
-              href="#"
+              href="https://www.ama.edu.ph/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,8 +34,8 @@ export default function Credentials() {
             <p>ICAgile | Agile Fundamentals, Team Collaboration, Value-Driven Delivery</p>
             <a
               className="credential-link"
-              href="#"
-              target="_blank"
+              href="/assets/ICP-John-Lester-Mayuga.pdf"
+              download="ICP-John-Lester-Mayuga.pdf"
               rel="noopener noreferrer"
             >
               Verify Credential
