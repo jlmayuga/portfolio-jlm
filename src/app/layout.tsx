@@ -2,6 +2,21 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://jlmayuga.vercel.app"),
+  openGraph: {
+    type: "website",
+    url: "/",
+    siteName: "John Lester Mayuga",
+    title: "John Lester Mayuga | Senior Agile Software Engineer",
+    description:
+      "Senior Full Stack Developer with 11+ years building enterprise web applications using React.js, Next.js, Node.js, and REST APIs.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "John Lester Mayuga | Senior Agile Software Engineer",
+    description:
+      "Senior Full Stack Developer with 11+ years building enterprise web applications using React.js, Next.js, Node.js, and REST APIs.",
+  },
   title: "John Lester Mayuga | Senior Agile Software Engineer",
   description:
     "Senior Agile Software Engineer and Senior Full Stack Developer with 11+ years building enterprise web applications using React.js, Next.js, Node.js, and REST APIs.",
