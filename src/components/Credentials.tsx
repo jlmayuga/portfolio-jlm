@@ -1,3 +1,5 @@
+import { assetPath } from "@/lib/asset-path";
+
 export default function Credentials() {
   return (
     <section className="section credentials">
@@ -7,7 +9,7 @@ export default function Credentials() {
       <div className="credential-list">
         <article className="credential-card has-logo">
           <div className="credential-logo-box">
-            <img src="/assets/ama.png" alt="AMA College Logo" className="icagile-logo" />
+            <img src={assetPath("/assets/ama.png")} alt="AMA College Logo" className="icagile-logo" />
           </div>
           <div className="credential-info">
             <span>2014</span>
@@ -26,7 +28,7 @@ export default function Credentials() {
 
         <article className="credential-card has-logo">
           <div className="credential-logo-box">
-            <img src="/assets/asset-1.svg" alt="ICAgile Logo" className="icagile-logo" />
+            <img src={assetPath("/assets/asset-1.svg")} alt="ICAgile Logo" className="icagile-logo" />
           </div>
           <div className="credential-info">
             <span>February 2026</span>
@@ -34,7 +36,7 @@ export default function Credentials() {
             <p>ICAgile | Agile Fundamentals, Team Collaboration, Value-Driven Delivery</p>
             <a
               className="credential-link"
-              href="/assets/ICP-John-Lester-Mayuga.pdf"
+              href={assetPath("/assets/ICP-John-Lester-Mayuga.pdf")}
               download="ICP-John-Lester-Mayuga.pdf"
               rel="noopener noreferrer"
             >
@@ -45,7 +47,7 @@ export default function Credentials() {
 
         <article className="credential-card has-logo">
           <div className="credential-logo-box">
-            <img src="/assets/Udemy_logo.svg" alt="Udemy Logo" className="udemy-logo" />
+            <img src={assetPath("/assets/Udemy_logo.svg")} alt="Udemy Logo" className="udemy-logo" />
           </div>
           <div className="credential-info">
             <span>January 2026</span>
@@ -64,7 +66,7 @@ export default function Credentials() {
 
         <article className="credential-card has-logo">
           <div className="credential-logo-box">
-            <img src="/assets/Udemy_logo.svg" alt="Udemy Logo" className="udemy-logo" />
+            <img src={assetPath("/assets/Udemy_logo.svg")} alt="Udemy Logo" className="udemy-logo" />
           </div>
           <div className="credential-info">
             <span>January 2026</span>

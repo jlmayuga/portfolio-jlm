@@ -52,6 +52,12 @@ npm run build
 npm start
 ```
 
+## GitHub Pages deployment
+
+The `gitpage` branch includes a GitHub Actions workflow for publishing this site as a static export. In the repository's **Settings → Pages**, set the source to **GitHub Actions**. Pushes to `main` or `gitpage` will build and deploy the site to [https://jlmayuga.github.io/portfolio-jlm/](https://jlmayuga.github.io/portfolio-jlm/).
+
+The workflow sets `GITHUB_PAGES=true` to apply the repository base path and generate the static `out/` directory. Local development remains available with `npm run dev`.
+
 ## Project structure
 
 ```text

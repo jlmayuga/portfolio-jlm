@@ -37,7 +37,7 @@ export default function OpengraphImage() {
           >
             JL
           </div>
-          <div style={{ fontSize: 28, color: "#c7a9ad" }}>jlmayuga.vercel.app</div>
+          <div style={{ fontSize: 28, color: "#c7a9ad" }}>jlmayuga.github.io/portfolio-jlm</div>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column" }}>

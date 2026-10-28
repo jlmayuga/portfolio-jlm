@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { assetPath } from "@/lib/asset-path";
 
 export default function Hero() {
   return (
@@ -26,7 +27,7 @@ export default function Hero() {
             </a>
             <a
               className="btn btn-cv"
-              href="/assets/John_Lester_Mayuga_CV.pdf"
+              href={assetPath("/assets/John_Lester_Mayuga_CV.pdf")}
               download="John_Lester_Mayuga_CV.pdf"
               aria-label="Download John Lester Mayuga's CV as a PDF"
             >
@@ -59,7 +60,7 @@ export default function Hero() {
           <div className="profile-portrait-card">
             <div className="profile-photo" aria-label="John Lester Mayuga profile image">
               <Image
-                src="/assets/jl-no-bg.png"
+                src={assetPath("/assets/jl-no-bg.png")}
                 alt="John Lester Mayuga"
                 width={240}
                 height={240}

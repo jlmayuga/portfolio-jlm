@@ -1,21 +1,23 @@
+import { assetPath } from "@/lib/asset-path";
+
 const logoDesigns = [
-  { src: "/assets/graphic-design/eats-frieday-everyday.png", name: "Eat's Frieday" },
-  { src: "/assets/graphic-design/shcy-frost-fb-logo.png", name: "Schy Frost" },
-  { src: "/assets/graphic-design/Takoyachy-logo.png", name: "Takoyachy" },
-  { src: "/assets/graphic-design/schyler-tacos.jpg", name: "Schyler Tacos" },
-  { src: "/assets/graphic-design/seoul-street-food-circle.png", name: "Seoul Street Food" },
-  { src: "/assets/graphic-design/doho-taiyaki.png", name: "Doho Taiyaki" },
-  { src: "/assets/graphic-design/mugiwara-fb.png", name: "Mugiwara Takoyaki" },
-  { src: "/assets/graphic-design/schylers-kitchen-colored.png", name: "Schyler's Kitchen" },
+  { src: assetPath("/assets/graphic-design/eats-frieday-everyday.png"), name: "Eat's Frieday" },
+  { src: assetPath("/assets/graphic-design/shcy-frost-fb-logo.png"), name: "Schy Frost" },
+  { src: assetPath("/assets/graphic-design/Takoyachy-logo.png"), name: "Takoyachy" },
+  { src: assetPath("/assets/graphic-design/schyler-tacos.jpg"), name: "Schyler Tacos" },
+  { src: assetPath("/assets/graphic-design/seoul-street-food-circle.png"), name: "Seoul Street Food" },
+  { src: assetPath("/assets/graphic-design/doho-taiyaki.png"), name: "Doho Taiyaki" },
+  { src: assetPath("/assets/graphic-design/mugiwara-fb.png"), name: "Mugiwara Takoyaki" },
+  { src: assetPath("/assets/graphic-design/schylers-kitchen-colored.png"), name: "Schyler's Kitchen" },
 ];
 
 const r3Variants = [
-  { src: "/assets/graphic-design/R3/R3-no-bg.png", name: "R3 primary mark" },
-  { src: "/assets/graphic-design/R3/R3-only.jpg", name: "R3 monogram" },
-  { src: "/assets/graphic-design/R3/EXPR3SS.jpg", name: "Express" },
-  { src: "/assets/graphic-design/R3/R3FILL%202.jpg", name: "Refill" },
-  { src: "/assets/graphic-design/R3/R3FRESH.jpg", name: "Refresh" },
-  { src: "/assets/graphic-design/R3/FR3EZE.jpg", name: "Freeze" },
+  { src: assetPath("/assets/graphic-design/R3/R3-no-bg.png"), name: "R3 primary mark" },
+  { src: assetPath("/assets/graphic-design/R3/R3-only.jpg"), name: "R3 monogram" },
+  { src: assetPath("/assets/graphic-design/R3/EXPR3SS.jpg"), name: "Express" },
+  { src: assetPath("/assets/graphic-design/R3/R3FILL%202.jpg"), name: "Refill" },
+  { src: assetPath("/assets/graphic-design/R3/R3FRESH.jpg"), name: "Refresh" },
+  { src: assetPath("/assets/graphic-design/R3/FR3EZE.jpg"), name: "Freeze" },
 ];
 
 export default function LogoDesigns() {

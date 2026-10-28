@@ -1,3 +1,5 @@
+import { assetPath } from "@/lib/asset-path";
+
 export default function Projects() {
   return (
     <section id="projects" className="section project-section">
@@ -12,7 +14,7 @@ export default function Projects() {
           <div className="project-visual study-partners has-logo">
             <img
               className="project-screenshot"
-              src="/assets/project-global-study-partners.png"
+              src={assetPath("/assets/project-global-study-partners.png")}
               alt="Global Study Partners landing page"
             />
           </div>
@@ -37,7 +39,7 @@ export default function Projects() {
           <div className="project-visual studylane has-logo">
             <img
               className="project-screenshot"
-              src="/assets/project-studylane.png"
+              src={assetPath("/assets/project-studylane.png")}
               alt="StudyLane Nepal landing page"
             />
           </div>
@@ -62,7 +64,7 @@ export default function Projects() {
           <div className="project-visual property-hub has-logo">
             <img
               className="project-screenshot"
-              src="/assets/project-propertyhub.png"
+              src={assetPath("/assets/project-propertyhub.png")}
               alt="Cotality PropertyHub landing page"
             />
           </div>
@@ -87,7 +89,7 @@ export default function Projects() {
           <div className="project-visual lcontreras has-logo">
             <img
               className="project-logo wide-logo"
-              src="/assets/lcontreras.svg"
+              src={assetPath("/assets/lcontreras.svg")}
               alt="Lcontreras OB-GYN logo"
             />
           </div>
@@ -112,7 +114,7 @@ export default function Projects() {
           <div className="project-visual ssproduction has-logo dark-logo">
             <img
               className="project-screenshot"
-              src="/assets/project-ssproduction.png"
+              src={assetPath("/assets/project-ssproduction.png")}
               alt="Shutter Speed Production landing page"
             />
           </div>
@@ -137,7 +139,7 @@ export default function Projects() {
           <div className="project-visual xcontent has-logo">
             <img
               className="project-logo square-logo"
-              src="/assets/xcontent.png"
+              src={assetPath("/assets/xcontent.png")}
               alt="Xcontent logo"
             />
           </div>
@@ -160,7 +162,7 @@ export default function Projects() {
           <div className="project-visual twist-hr has-logo">
             <img
               className="project-screenshot"
-              src="/assets/project-hr.png"
+              src={assetPath("/assets/project-hr.png")}
               alt="TwistResources HR landing page"
             />
           </div>
@@ -183,7 +185,7 @@ export default function Projects() {
           <div className="project-visual tooltwist has-logo">
             <img
               className="project-screenshot"
-              src="/assets/project-tooltwist.png"
+              src={assetPath("/assets/project-tooltwist.png")}
               alt="ToolTwist landing page"
             />
           </div>
@@ -208,7 +210,7 @@ export default function Projects() {
           <div className="project-visual tooltwist has-logo">
             <img
               className="project-logo square-logo"
-              src="/assets/twistteams.png"
+              src={assetPath("/assets/twistteams.png")}
               alt="TwistTeam logo"
             />
           </div>
@@ -233,7 +235,7 @@ export default function Projects() {
           <div className="project-visual twist-hr has-logo">
             <img
               className="project-screenshot"
-              src="/assets/project-twistresources.png"
+              src={assetPath("/assets/project-twistresources.png")}
               alt="TwistResources landing page"
             />
           </div>
@@ -258,7 +260,7 @@ export default function Projects() {
           <div className="project-visual ttcm has-logo">
             <img
               className="project-screenshot"
-              src="/assets/project-ttcm.png"
+              src={assetPath("/assets/project-ttcm.png")}
               alt="TTCM landing page"
             />
           </div>
@@ -281,7 +283,7 @@ export default function Projects() {
           <div className="project-visual ttpr has-logo">
             <img
               className="project-screenshot"
-              src="/assets/project-ttpr.png"
+              src={assetPath("/assets/project-ttpr.png")}
               alt="TTPR landing page"
             />
           </div>
